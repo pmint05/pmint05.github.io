@@ -767,10 +767,18 @@ header.sticky .theme-btn:hover{
 	overflow: hidden;
 	z-index: 999;
 }
+.card-buttons .card-btn button a{
+	color: var(--black1);
+	transition: 0.3s ease-in-out;
+	text-decoration: none;
+}
 
 .card-buttons .card-btn:hover button{
 	color: var(--white1);
 	background-color: var(--black1);
+}
+.card-buttons .card-btn:hover button a{
+	color: var(--white1);
 }
 
 
@@ -1782,7 +1790,7 @@ form .form-row .textarea{
 	}
 	.card-container .card-icons{
 		position: relative;
-		margin-top: -350px;
+		margin-top: -330px;
 		margin-left: 10px;
 		list-style: none;
 	}
@@ -2294,7 +2302,7 @@ form .form-row .textarea{
 		line-height: 1.2em;
 	}
 	.card-content .card-buttons{
-		margin-top: 10px;
+		margin-top: 20px;
 	}
 	.card-buttons .card-btn{
 		height: 35px;
@@ -2307,7 +2315,7 @@ form .form-row .textarea{
 	}
 	.card-container .card-icons{
 		position: relative;
-		margin-top: -270px;
+		margin-top: -270px !important;
 		margin-left: 10px;
 		list-style: none;
 	}
@@ -2748,5 +2756,30 @@ form .form-row .textarea{
 		border-radius: 50%;
 		font-size: 20px;
 	}
+	@keyframes floatb{
+		0%{
+			bottom: 100px;
+		}50%{
+			bottom: 120px;
+		}100%{
+			bottom: 100px;
+		}
+	}
+	@keyframes floata{
+		0%{
+			bottom: calc(100px + 40px);
+		}50%{
+			bottom: calc(120px + 40px);
+		}100%{
+			bottom: calc(100px + 40px);
+		}
+	}
+	.card-container .card-icons{
+		position: relative;
+		margin-top: -330px;
+		margin-left: 10px;
+		list-style: none;
+	}
+	
 	
 }
