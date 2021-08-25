@@ -1215,7 +1215,7 @@ header.sticky .theme-btn:hover{
 	width: 70%;
 }
 .bar .progress-line.ai span{
-	width: 10%;
+	width: 20%;
 }
 .bar .progress-line.lr span{
 	width: 90%;
@@ -1230,7 +1230,7 @@ header.sticky .theme-btn:hover{
 	content: "70%";
 }
 .progress-line.ai span::after{
-	content: "10%";
+	content: "20%";
 }
 .progress-line.lr span::after{
 	content: "90%";
