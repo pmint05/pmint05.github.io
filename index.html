@@ -676,6 +676,8 @@
 								submit.style.pointerEvent = "none";
 								localStorage.setItem("clicked", true);
 							}, 500);
+							submit.style.pointerEvent = "none";
+
 							object.innerHTML = JSON.stringify(snap.val());
 						});
 					}
