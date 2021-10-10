@@ -124,7 +124,7 @@ document.addEventListener("contextmenu", (event) => event.preventDefault());
 function type() {
 	let typed = new Typed("#typed", {
 		strings: [
-			"Beginning Web Deverloper",
+			"Beginning Web Developer",
 			"Beginning Graphic Designer",
 			"Student.",
 		],
